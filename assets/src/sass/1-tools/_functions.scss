@@ -1,0 +1,6 @@
+/*---------------------------------
+		Functions
+-----------------------------------*/
+@function background_url($image) {
+  @return url('../img/' + $image);
+}

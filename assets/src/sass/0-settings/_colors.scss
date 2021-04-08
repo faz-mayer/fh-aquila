@@ -1,0 +1,71 @@
+/*---------------------------------
+		Colors Variables
+-----------------------------------*/
+
+$black: #000;
+$black-900: #3d3d3d;
+$black-860: #595858;
+$black-850: #323232;
+$black-800: #414042;
+$black-600: #3d3e40;
+$black-700: #595959;
+$black-100: #282828;
+$black-50: #5d5d5d;
+
+$white: #fff;
+
+$dark-gray-200: #333;
+$dark-gray-100: #424242;
+
+$gray-100: #eff3f6;
+$gray-150: #eee;
+$gray-160: #e2eaee;
+$gray-200: #ccc;
+$gray-300: #555;
+
+$blue-900: #3344d9;
+$blue-800: #322ebb;
+$blue-500: #355180;
+$blue-300: #6258d5;
+$blue-200: #0673a9;
+$blue-100: #0192cc;
+$blue-80: #0183c6;
+$blue-40: #2791db;
+$blue-50: #39a7e2;
+$blue-40: #38affd;
+$blue-20: #e4f3fd;
+/*---------------------------------
+		Opacity
+-----------------------------------*/
+
+$opacity-black-075: rgba(0, 0, 0, 0.075);
+$opacity-black-015: rgba(0, 0, 0, 0.15);
+
+/*---------------------------------
+		Element Colors
+-----------------------------------*/
+
+// <body>
+$color__body-text: $black-800;
+// <footer>
+$color__footer-text: $gray-160;
+$color__background-footer: linear-gradient(
+  rgba(45, 60, 70, 0.6),
+  rgba(45, 60, 70, 0.7)
+);
+
+// <a>
+$color__link: $dark-gray-200;
+$color__link-hover: $black-100;
+/*----- <a> for footer -----*/
+$color__footer-link: $gray-160;
+$color__footer-link-hover: $blue-40;
+
+// <hr>
+$color__background-hr: $gray-150;
+
+/*---------------------------------
+		Border Colors
+-----------------------------------*/
+
+$color__border-fieldset: $gray-200;

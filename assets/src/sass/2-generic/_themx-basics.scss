@@ -1,0 +1,133 @@
+/*---------------------------------
+	Themx-basics
+-----------------------------------*/
+.box-shadow {
+  width: 100vw;
+  padding: 0;
+  margin: 0 auto;
+}
+
+@media (min-width: 600px) {
+  .box-shadow {
+    width: 80vw;
+    // max-width: 1100px;
+    max-width: 980px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+    margin: 0 auto;
+  }
+}
+/*---------- post-page styles -------------------------------*/
+.post-container,
+.page-container {
+  width: 80%;
+  margin: 2em auto 1em auto;
+}
+
+@media (min-width: 800px) {
+  .post-container,
+  .page-container {
+    margin: 2.2em auto 2em auto;
+  }
+}
+
+/*--------------------------------------------------------------
+# Common Classes and IDs
+--------------------------------------------------------------*/
+.hide {
+  position: absolute !important;
+  left: -9999em;
+}
+
+/*--------------------------------------------------------------
+## Links
+--------------------------------------------------------------*/
+/*
+a:link {
+  color: #000000;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #bcaaa4;
+}
+
+a:hover,
+a:focus,
+a:active {
+  color: #5d4037;
+}
+
+a:focus {
+  outline: thin dotted;
+}
+
+a:hover,
+a:active {
+  outline: 0;
+}
+*/
+/*--------------------------------------------------------------
+# Content
+--------------------------------------------------------------*/
+.site {
+  position: relative;
+  /* To place #secondary aside absolutely positioned from main wrapper */
+}
+/*--------------------------------------------------------------
+## styles from Themx
+--------------------------------------------------------------*/
+
+/* Searchfield in header */
+.header-button-panel .search-form {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  background-color: #ffffff;
+  align-items: flex-end;
+  height: 3rem;
+  left: 0px;
+  margin-left: 0.5em;
+  position: absolute;
+  width: calc(100% - 4.5rem);
+  z-index: 500;
+}
+
+.header-button-panel .search-form input,
+.header-button-panel .search-form label {
+  font-size: 14px;
+  font-size: 0.875rem;
+}
+
+.header-button-panel .search-form.hide {
+  left: -9999em;
+}
+
+.header-button-panel .search-field {
+  background-color: transparent;
+  border-top: transparent;
+  border-right: transparent;
+  border-bottom: 2px solid #a00121;
+  border-left: transparent;
+  color: #4d4d4d;
+  margin-bottom: 0;
+  width: 95%;
+  width: calc(100% - 0.5em);
+}
+
+.header-button-panel .search-field:focus {
+  color: black;
+}
+
+.header-button-panel input.search-field::-webkit-input-placeholder {
+  color: #4d4d4d;
+}
+
+.header-button-panel input.search-field::-moz-placeholder {
+  color: #4d4d4d;
+  font-weight: 600;
+  opacity: 1;
+}
+
+.header-button-panel input.search-field::-ms-input-placeholder {
+  color: #4d4d4d;
+}
